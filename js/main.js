@@ -40,5 +40,8 @@ if (age < underPriceAge){
 } else {
     lastPrice = firstPrice - 0;
 }
+lastPrice = lastPrice.toFixed(2);
+console.log(lastPrice);
 
+document.querySelector("h1").innerHTML = lastPrice;
 
