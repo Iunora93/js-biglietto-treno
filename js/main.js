@@ -18,8 +18,6 @@ console.log(age)
 const priceTicket = (0.21 * numberKm);
 console.log(priceTicket);
 
-let result;
-if (18 < age) {
-    result = priceTicket * 20 / 100
+if (18 < age = priceTicket * 20 / 100) {
+    console.log(priceTicket)
 } 
-console.log(result);
